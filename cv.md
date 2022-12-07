@@ -17,4 +17,5 @@ Branch of St. Petersburg State University of Civil Aviation, Krasnoyarsk
 Russian - native\
 English - B1
 
-[This](https://github.com/logvvinenko/rsschool-cv.git) is my first project on GitHub 
+## **Projects**
+### [This](https://github.com/logvvinenko/rsschool-cv.git) is my first project 
