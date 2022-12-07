@@ -1,5 +1,5 @@
 # **Curriculum Vitae**
-![](./userpic.jpeg = 200x200)
+![](./userpic.jpeg)
 - Name: Nikita Logvinenko
 - Age: 30
 - Phone: +7 (923) 365-96-57
@@ -16,3 +16,5 @@ Branch of St. Petersburg State University of Civil Aviation, Krasnoyarsk
 ## **languages**
 Russian - native\
 English - B1
+
+[This](https://github.com/logvvinenko/rsschool-cv.git) is my first project on GitHub 
