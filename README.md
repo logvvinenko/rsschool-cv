@@ -1,1 +1,1 @@
-# rsschool-cv
+https://logvvinenko.github.io/rsschool-cv/cv
