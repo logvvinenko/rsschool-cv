@@ -15,7 +15,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
+
+
 
 .container {
     max-width: 1440px;
@@ -30,6 +33,7 @@ body {
 
 .nav-list {
     display: flex;
+    
     justify-content: flex-end;
     align-items: center; 
     list-style: none;
@@ -42,7 +46,6 @@ body {
        line-height: 40px;
        text-decoration: none;
        color: peru;
-       transition: .3s;
        font-size: 16px;
    }
    
@@ -57,12 +60,13 @@ body {
     padding: 10px;
     padding-bottom: 30px;
     border-bottom: 1px solid peru;
+    border: 2px solid red;
 }
 
 
 .main-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
+    flex-wrap: wrap; 
     justify-content: space-between;
 }
 
@@ -70,6 +74,65 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    
+
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: 10px solid peru;
+    
+}
+
+.secotion-profile-title {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.footer {
+   
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+    
+}
+
+    .rss {
+    width: 64px;
+    height: 40px;
+    ;
+}
+
+.github-link {
+
+    
+    
+}
+
+.year {
+    
+}
+  
+.rsslogo {
+    
+    padding: 10px;
+}
+
+.gitlogo {
+    width: 64px;
+    height: 64px;
 }
 
 
