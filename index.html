@@ -28,8 +28,6 @@
                     <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
                 </ul>
             </nav>
-
-    
         </div>  
     </header>
         <main class="main">
@@ -38,53 +36,61 @@
                     <img class="userpic" src="assest/userpic.jpeg" alt="userpic">
                         <div class="secotion-profile-title">
                             <h1 class="section-title">Nikita Logvinenko</h1>
-                            <h3>Junior web-developer<h3>
+                            <h3>Junior web-developer</h3>
                         </div>
                  </section>
                 <section class="section section-contacts" id="contacts">
                     <h2>Contacts</h2>
                     <ul>
+                        <li>Location: Krasnoyarsk, Russia</li>
                         <li>Age: 30</li>
-                        <li>Github: logvvinenko</li>
                         <li>Email: logvvinenko@yahoo.com</li>
                         <li>Teleram: @nikita_kandinsky</li>
                         <li>Discord: nikita-logvvinenko#0627</li>
-                    
                     </ul>
                 </section>
-                <section class="section">
+                <section class="section section-summary">
                     <h2 id="aboutme" class="subtitle section-title ">About me</h2>
                     <p class="feature-text"> I have recently started working with the code. I have learned a little about the basics of HTML and CSS. Studied on the free part of courses from Yandex and simulators from code-basics. Also independently studied web-development  on the basis of materials MDN. My goal is to become a web-developer and constantly improve.</p>
                 </section>
-                <section class="section">
+                <section class="section section-skills">
                     <h2 id="skills" class="subtitle section-title">Skills</h2>
-                    <p class="feature-text"></p>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>GIT, Github</li>
+                    </ul>
                 </section>
-                <section class="section">
+                <section class="section section-code">
                     <h2 id="code" class="subtitle section-title">Code</h2>
-                    <p class="feature-text"></p>
+                        <pre><code>button.<span class="span">addEventListener</span>(<span class="span">'click'</span>, <span class="span-operators">function</span> () { 
+    <span class="span-operators ">let</span> randomElement = getRandomElement(phrases);
+    phrase.<span class="span">textContent</span> = randomElement;
+    <span class="span-operators ">if</span> (randomElement.<span class="span">length</span> > <span class="span-number">40</span> ) {
+        advice.<span class="span">style</span>.<span class="span">fontSize</span> = <span class="span">'33px'</span>;
+    }  <span class="span-operators ">else</span> { 
+        advice.<span class="span">style</span>.<span class="span">fontSize</span> = <span class="span">'42px'</span>
+    }
+
+ });</code>
+                        </pre>                           
                 </section>
-                <section class="section">
+                <section class="section section-courses">
                     <h2 id=courses class="subtitle section-title">Courses</h2>
                         <ul> 
-                            <li>Yandex practicum</li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Yandex: web-developer (free part)</li>
+                            <li>Netology: basics of layout</li>
+                            <li>Code-basics: HTML, CSS, JavaScript</li>
                         </ul>
-                    <p class="feature-text"></p>
                 </section>
-                <section class="section">
+                <section class="section section-projects">
                     <h2 id="projects" class="subtitle section-title">Projects</h2>
-                    <p><a href="https://github.com/logvvinenko/rsschool-cv/tree/rsschool-cv-html">This </a>is my first project</p>
+                    <p><a href="https://github.com/logvvinenko/rsschool-cv/tree/rsschool-cv-html" target="_blank" class="projects-link">Curriculum vitae</a></p>
                 </section>
-                <section class="section">
+                <section class="section section-education">
                     <h2 id="education" class="subtitle section-title">Education</h2>
                     <p class="fearure-text">Branch of St. Petersburg State University of Civil Aviation, Krasnoyarsk</p>
                 </section>
-                <section class="section">
+                <section class="section section-languages">
                     <h2 id="languages" class="subtitle section-title">Languages</h2>
                     <p class="feature-text">Russian — native</p>
                     <p class="feature text">English — B1</p>
@@ -94,7 +100,7 @@
     <footer class="footer">
         <div class="container footer-container">
             <div class="github-link">
-                <a href="https://github.com/logvvinenko" target="_blank"><img class="gitlogo" src="assest/github-logo.png"></a>
+                <a href="https://github.com/logvvinenko" target="_blank"><img class="gitlogo" src="assest/github-logo.png" alt="github logo"></a>
             </div>
             <div class="year">
            <p>©2022</p>

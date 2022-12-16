@@ -18,6 +18,12 @@ body {
     
 }
 
+h3 {
+    text-transform: lowercase;
+    margin: auto;
+
+}
+
 
 
 .container {
@@ -33,16 +39,15 @@ body {
 
 .nav-list {
     display: flex;
-    
     justify-content: flex-end;
     align-items: center; 
     list-style: none;
    }
+
    
    
    .nav-link {
-       
-       padding: 0 20px;
+       padding: 0 10px;
        line-height: 40px;
        text-decoration: none;
        color: peru;
@@ -57,10 +62,12 @@ body {
 
     .section {
     width: 49%;
-    padding: 10px;
+    padding: 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid peru;
-    border: 2px solid red;
+    box-shadow: 10px 20px 30px peru;
+    font-size: 18px;
+    margin: 0px;    
 }
 
 
@@ -74,6 +81,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    box-shadow: 2px 5px 5px rgb(67, 43, 43);
     
 
 }
@@ -84,7 +92,11 @@ body {
     width: 100%;
     font-size: 20px;
     padding: 20px;
-    border-bottom: 10px solid peru;
+    border: 2px solid peru;
+    margin: auto;
+
+    
+    
     
 }
 
@@ -92,12 +104,31 @@ body {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
+ 
+
 }
 
-.footer {
-   
+.secotion-profile-title h1 {
+    border-bottom: 3px solid peru;
+    padding-bottom: 10px;
+    box-shadow: 2px peru;
 }
 
+
+.projects-link {
+text-decoration: none;
+font-weight: 600;
+font-size: 30px;
+color:rgb(17, 0, 0)
+
+
+}
+
+.projects-link:hover {
+text-decoration: underline;
+color: rgb(84, 19, 27);
+
+}
 
 .footer-container {
   display: flex;
@@ -106,6 +137,7 @@ body {
   font-size: 20px;
   padding: 20px;
   text-align: center;
+  
     
 }
 
@@ -115,15 +147,6 @@ body {
     ;
 }
 
-.github-link {
-
-    
-    
-}
-
-.year {
-    
-}
   
 .rsslogo {
     
@@ -135,6 +158,32 @@ body {
     height: 64px;
 }
 
+.span-operators {
+    color: purple;
+}
+
+.span {
+    color: green;
+}
+
+
+.span-number {
+    color: rgb(36, 158, 214);
+}
+
+.section-code {
+    font-size: 16px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .section-code {
+        font-size: 14px;
+    }
+}
 
 
 @media (max-width: 768px) {
@@ -142,4 +191,11 @@ body {
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .secotion-profile-title {
+        padding: 15px;
+    }
+}
+
 
