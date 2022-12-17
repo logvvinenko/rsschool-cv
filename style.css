@@ -18,6 +18,10 @@ body {
     
 }
 
+h2 {
+    margin:0;
+  }  
+
 h3 {
     text-transform: lowercase;
     margin: auto;
@@ -52,7 +56,9 @@ h3 {
        text-decoration: none;
        color: peru;
        font-size: 16px;
+
    }
+   
    
    .nav-link:hover {
        text-decoration: underline;
@@ -67,7 +73,7 @@ h3 {
     border-bottom: 1px solid peru;
     box-shadow: 10px 20px 30px peru;
     font-size: 18px;
-    margin: 0px;    
+    margin: 0px; 
 }
 
 
@@ -118,7 +124,7 @@ h3 {
 .projects-link {
 text-decoration: none;
 font-weight: 600;
-font-size: 30px;
+font-size: 18px;
 color:rgb(17, 0, 0)
 
 
@@ -138,7 +144,8 @@ color: rgb(84, 19, 27);
   padding: 20px;
   text-align: center;
   
-    
+ 
+
 }
 
     .rss {
@@ -147,7 +154,24 @@ color: rgb(84, 19, 27);
     ;
 }
 
-  
+.section-contacts {
+    padding-bottom: 10px;
+    font-size: 20px;
+
+
+}
+
+
+
+
+
+.section-courses {
+    padding-bottom: 10px;
+    font-size: 20px;
+
+
+}
+
 .rsslogo {
     
     padding: 10px;
@@ -175,6 +199,26 @@ color: rgb(84, 19, 27);
     font-size: 16px;
 }
 
+.contacts-link {
+    text-decoration: none;
+    color:rgb(17, 0, 0)
+    }
+    
+    .contacts-link:hover {
+        text-decoration: underline;
+        color: rgb(84, 19, 27);
+        
+        }
+
+    .skills-item {
+      
+        font-size: 20px;
+    }
+
+    .skills-item li {
+       
+        padding-bottom: 10px;
+    }
 
 
 
@@ -189,6 +233,8 @@ color: rgb(84, 19, 27);
 @media (max-width: 768px) {
     .section {
         width: 100%;
+        
+      
     }
 }
 
@@ -199,3 +245,14 @@ color: rgb(84, 19, 27);
 }
 
 
+@media (max-width: 768px) {
+    .secotion-profile-title {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        display: none;
+    }
+}
