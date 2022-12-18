@@ -6,7 +6,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
@@ -14,8 +13,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 h2 {
@@ -25,10 +23,7 @@ h2 {
 h3 {
     text-transform: lowercase;
     margin: auto;
-
 }
-
-
 
 .container {
     max-width: 1440px;
@@ -40,33 +35,27 @@ h3 {
     background-color: rgb(17, 0, 0);
 }
 
-
 .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center; 
     list-style: none;
    }
+   
+.nav-link {
+    padding: 0 10px;
+    line-height: 40px;
+    text-decoration: none;
+    color: peru;
+    font-size: 16px;
+}
 
-   
-   
-   .nav-link {
-       padding: 0 10px;
-       line-height: 40px;
-       text-decoration: none;
-       color: peru;
-       font-size: 16px;
-
-   }
-   
-   
-   .nav-link:hover {
-       text-decoration: underline;
-       color:rgb(255, 255, 255);
+.nav-link:hover {
+    text-decoration: underline;
+    color:rgb(255, 255, 255);
    }
 
-
-    .section {
+.section {
     width: 49%;
     padding: 30px;
     padding-bottom: 30px;
@@ -75,7 +64,6 @@ h3 {
     font-size: 18px;
     margin: 0px; 
 }
-
 
 .main-container {
     display: flex; 
@@ -88,8 +76,6 @@ h3 {
     height: 200px;
     border-radius: 50%;
     box-shadow: 2px 5px 5px rgb(67, 43, 43);
-    
-
 }
 
 .section-profile {
@@ -98,20 +84,14 @@ h3 {
     width: 100%;
     font-size: 20px;
     padding: 20px;
-    border: 2px solid peru;
+    border: px solid peru;
     margin: auto;
-
-    
-    
-    
 }
 
 .secotion-profile-title {
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
- 
-
 }
 
 .secotion-profile-title h1 {
@@ -120,35 +100,28 @@ h3 {
     box-shadow: 2px peru;
 }
 
-
 .projects-link {
-text-decoration: none;
-font-weight: 600;
-font-size: 18px;
-color:rgb(17, 0, 0)
-
-
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color:rgb(17, 0, 0)
 }
 
 .projects-link:hover {
-text-decoration: underline;
-color: rgb(84, 19, 27);
-
+    text-decoration: underline;
+    color: rgb(84, 19, 27);
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  text-transform: uppercase;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-  
- 
-
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
-    .rss {
+.rss {
     width: 64px;
     height: 40px;
     ;
@@ -157,23 +130,14 @@ color: rgb(84, 19, 27);
 .section-contacts {
     padding-bottom: 10px;
     font-size: 20px;
-
-
 }
-
-
-
-
 
 .section-courses {
     padding-bottom: 10px;
     font-size: 20px;
-
-
 }
 
 .rsslogo {
-    
     padding: 10px;
 }
 
@@ -190,7 +154,6 @@ color: rgb(84, 19, 27);
     color: green;
 }
 
-
 .span-number {
     color: rgb(36, 158, 214);
 }
@@ -202,39 +165,29 @@ color: rgb(84, 19, 27);
 .contacts-link {
     text-decoration: none;
     color:rgb(17, 0, 0)
-    }
+}
     
-    .contacts-link:hover {
-        text-decoration: underline;
-        color: rgb(84, 19, 27);
-        
-        }
+.contacts-link:hover {
+    text-decoration: underline;
+    color: rgb(84, 19, 27);
+}
 
-    .skills-item {
-      
-        font-size: 20px;
+.skills-item {
+    font-size: 20px;
+}
+
+.skills-item li {       
+    padding-bottom: 10px;
     }
-
-    .skills-item li {
-       
-        padding-bottom: 10px;
-    }
-
-
-
 
 @media (max-width: 768px) {
     .section-code {
         font-size: 14px;
     }
 }
-
-
 @media (max-width: 768px) {
     .section {
         width: 100%;
-        
-      
     }
 }
 
@@ -243,7 +196,6 @@ color: rgb(84, 19, 27);
         padding: 15px;
     }
 }
-
 
 @media (max-width: 768px) {
     .secotion-profile-title {
